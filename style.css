@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #3F5185;
+    --accent-color: #1E88E5;
+    --warm-color: blue;
+    --secondary-color: #000;
+    --background-color: #fff;
+    --text-color: #000;
+}
+
+body {
+    font-family: "Oswald";
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+h1, h2, h3, h4, a {
+    color: var(--accent-color);
+}
+
+p {
+    color: var(--text-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+span {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, footer {
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+a:hover {
+    color: var(--accent-color);
+    display: inline-block;
+    scale: 1.1;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    font-size: 16px;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 0.6rem;
+}
+
+#hero, #bucketList, #gallery, #projects, footer {
+    text-align: center;
+    display: flex;
+    place-items: center;
+}
+
+#bucketList li {
+    margin-bottom: 10px;
+}
+
+.gallery-wrapper, .projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-wrapper {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.project {
+    margin: 20px;
+}
+
+.img-wrapper img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#resume *{
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+#resume a {
+    display: block;
+}
+
+.sect {
+    margin-bottom: 2rem;
+}
+
+#resume a.email {
+    color: var(--warm-color);
+    font-size: 12px;
+}
+
+#resume h2 {
+    color: #6b6d6f;
+    border-bottom: 1px solid #6b6d6f;
+    padding-bottom: 8px;
+}
+
+#resume p a {
+    display: inline-block;
+    color: var(--secondary-color);
+}
+
+#resume h3 {
+    font-weight: 600;
+}
+
+#resume a.download-btn {
+    color: var(--primary-color);
+}
+
+#resume a:hover {
+    scale: initial;
+}
+
+footer ul a{
+    font-size: 14px;
+}
